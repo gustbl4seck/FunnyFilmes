@@ -12,20 +12,80 @@
 <body>
     <!-- aula 27/09/2022-->
     <!-- inicio do meu repositorio -->
-    <header id="header" 
-        <a id="logo" href="index.html"><img src="./img/senai_small.jpg" alt="logo funny filmes"</a>
+    <header id="header">
+         <a id="logo" href="index.html"><img src="./img/logotipo-filmes-e-series.png" alt="logo funny filmes"></a> 
         <nav id="nav">
-            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" 
+            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"> 
               <span id="hamburguer"></span>
             </button>
-            <ul id="menu" role="menu"
-              <li><a class="limkmenu" href="index.html">home</a></li>
-              <li><a class="limkmenu" href="filmes.html">filmes</a></li>
-              <li><a class="limkmenu" href="contato.html">contato</a></li>
+            <ul id="menu" role="menu">
+              <li><a class="limkmenu" href="index.html">home | </a></li>
+              <li><a class="limkmenu" href="filmes.html">filmes | </a></li>
+              <li><a class="limkmenu" href="contato.html">contato | </a></li>
+              <li><a class="limkmenu" href="Recomendações.html">Recomendações | </a></li>
+              <li><a class="linkmenu" href="chat.html">chat</a></li>
             </ul>
          </nav>
     </header>
     <!-- fim do menu responsivo --> 
-      
+     
+    <!--inincio do carrossel página principal-->
+ 
+      <div id="carouselexampleinterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-lenner">
+            <div class="carousel-item active" data-bs-interval="400">
+              <img src="./img/slide 10.jpg"
+              class="d-block w-100" 
+              alt="..."
+              />
+            </div>  
+      <div id="carouselexampleinterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-lenner">
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="./img/slide 11.jpg"
+              class="d-block w-100" 
+              alt="..."
+              />
+      <div id="carouselexampleinterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-lenner">
+            <div class="carousel-item">
+              <img src="./img/slide 12.jpg"
+              class="d-block w-100" 
+              alt="..."
+              />
+            </div> 
+            </div>
+            <button 
+               class="carousel-control-prev"
+               data-bs-target="#Carousel-Example-interval"
+               type="button"
+               data-bs-slide="prev"
+            >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>          
+            <button 
+               class="carousel-control-next"
+               data-bs-target="#Carousel-Example-interval"
+               type="button"
+               data-bs-slide="next"
+            >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+            </button>          
+       </div>
+      <!--fim do caroussel da pagina principal-->
+    
+    
+    
+    
+    
+
+  
+
+     
 </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js" ></script>
+
 </html>

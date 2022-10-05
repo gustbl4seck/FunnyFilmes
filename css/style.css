@@ -115,3 +115,58 @@ a {
     font-weight: bold;
 }
 /*fim do css destaque*/
+/*inicio css novidades*/
+
+.novidades {
+    background-color: #8d0808;
+    padding: 50px;
+}
+
+.novidades .text-body {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2 {
+    color: #e7e7e7;
+}
+
+.novidades p {
+    color: #fff;
+}
+
+.novidades a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: rgb(139, 3, 3);
+    padding: 6px 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
+/*fim css novidades*/
+/*inicio css galeria*/
+
+.galeria {
+    margin: 60px auto 20px;
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 50px;
+}
+
+
+/*fim css galeria*/
+
+

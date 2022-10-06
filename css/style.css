@@ -43,6 +43,7 @@ a {
     position: relative;
     z-index: 10;
     gap: 0.5rem;
+    padding-top: 85px;
 }
 #carouselExampleInterval img {
     height: 800px;
@@ -165,8 +166,40 @@ a {
     width: 30%;
     margin: 14px auto 50px;
 }
-
-
 /*fim css galeria*/
+
+/*inicio css footer */
+.rodape {
+    padding: 50px 50px;
+}
+
+.rodape .info-contato p {
+    margin: opx;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.rodape a:hover {
+    font-weight: bold;
+}
+
+.rodape .redes-sociais {
+    display: inline-block;
+}
+
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+}
+
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+}
+
 
 
